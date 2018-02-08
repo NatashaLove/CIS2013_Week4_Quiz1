@@ -12,10 +12,10 @@ for (int i=1; i<=2000; i++){
 count = count + 1;
 cout << count;
 
-if (count%50) {
+if (count%50==0) {
 	cout << " FOO ";
 }
-if (count%33) {
+if (count%33==0) {
 	cout << " BAR ";
 }
 cout << endl;
